@@ -1,13 +1,13 @@
 # wpthemebootstrapblank
-Blank Theme for Wordpress based on Bootstrap
+Blank Theme for Wordpress based on Bootstrap 3.0+
 
 ## Features
 - Custom post type projects with taxonomies
 - Basic SEO
 - Breadcrumb
-- Use holder.js library if thumbnail not exist
+- Use holder.js library if thumbnail not exist [Holderjs](https://github.com/imsky/holder)
 - 404 template
-- Boostraped menu
+- [Boostraped menu wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
 
 ## TO-DO
 - bug on breadcrumb taxonomy project
