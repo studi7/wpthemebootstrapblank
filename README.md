@@ -11,7 +11,7 @@ Blank Theme for Wordpress based on Bootstrap 3.0+
 - 404 template
 - Boostraped menu by [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)
 
-## RECOMMENDATIONs
+## Recommendations
 - Use Option Tree wordpress plugin to make an options template page and setting content areas from backend wordpress [Option Tree](https://wordpress.org/plugins/option-tree/)
 
 ## TO-DO
