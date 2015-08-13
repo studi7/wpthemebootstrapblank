@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title><?php if(is_home()) { echo bloginfo("name"); echo " | "; echo bloginfo("description"); } else { echo wp_title(" | ", false, right); echo bloginfo("name"); } ?></title>
+    <title><?php if(is_home()) { echo bloginfo("name"); echo " | "; echo bloginfo("description"); } else { echo wp_title(" | ", false, 'right'); echo bloginfo("name"); } ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- Le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet"/>
 
     <meta name="description" content="<?php if ( is_single() || is_page() ) {
-  		single_post_title('', true); 
+  		single_post_title('', true);
 	} else if(is_category() || is_archive()) {
   		single_cat_title();
     } else {
@@ -61,7 +61,7 @@ $('ul.nav li.dropdown, ul.nav li.dropdown-submenu').click(function() {
 	<?php bloginfo('description'); ?>
 	</div>
 	<div class="col-md-8">
-	
+
         </div>
   </div>
   <div class="row">
@@ -70,12 +70,12 @@ $('ul.nav li.dropdown, ul.nav li.dropdown-submenu').click(function() {
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		<span class="sr-only">Toggle navigation</span>
+		<span class="sr-only"><?php _e('Toggle navigation','wpthemebootstrapblank'); ?></span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand visible-xs" href="#"><?php echo _e('Navigation'); ?></a>
+	      <a class="navbar-brand visible-xs" href="#"><?php echo __('Navigation','wpthemebootstrapblank'); ?></a>
 	    </div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->

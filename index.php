@@ -5,7 +5,7 @@
 	  	<?php the_content(); ?>
 
 	<?php endwhile; else: ?>
-		<p><?php _e('Sorry, this page does not exist.'); ?></p>
+		<p><?php _e('Sorry, this page does not exist.','wpthemebootstrapblank'); ?></p>
 	<?php endif; ?>
 
 
