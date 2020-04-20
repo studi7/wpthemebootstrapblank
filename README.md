@@ -1,7 +1,7 @@
 # wpthemebootstrapblank
 Blank Theme for Wordpress based on Bootstrap 3.0+
 
-*development version*
+**development version**
 
 ## Features
 - Custom post type projects with taxonomies
